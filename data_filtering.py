@@ -38,4 +38,4 @@ for star_data in di:
     if gravity[8] < 150 or gravity > 300:
         di.remove(star_data)
 
-
+di.to_csv('filtered_data.csv')
